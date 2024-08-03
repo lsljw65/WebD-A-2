@@ -30,4 +30,12 @@ $(function () {
       });
     count++;
   }, 3000);
+
+  //   모달
+  $(".notic-list li:first-child").click(function () {
+    $(".modal").show();
+  });
+  $(".modal-close").click(function () {
+    $(".modal").hide();
+  });
 });
