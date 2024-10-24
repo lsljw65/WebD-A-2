@@ -1,4 +1,47 @@
 @charset "utf-8";
 html,
 body {
+  margin: 0 auto;
+  background-color: #ffffff;
+  color: #333333;
+  font-size: 16px;
+  font-family: "맑은 고딕";
+  width: 1200px;
+  position: relative;
+}
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+a {
+  text-decoration: none;
+  color: #666666;
+}
+a:hover {
+  color: #574747;
+}
+img {
+  vertical-align: bottom;
+}
+
+/* header */
+header {
+  width: 100%;
+  height: 100px;
+  background-color: #dddddd;
+}
+/* 콘텐츠 */
+section {
+  width: 100%;
+  height: 500px;
+  background-color: #f2f2f2;
+  margin: auto;
+  position: relative;
+}
+/* footer */
+footer {
+  width: 100%;
+  height: 100px;
+  background-color: #eeeeee;
 }
