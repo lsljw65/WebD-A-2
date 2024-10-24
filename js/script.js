@@ -38,4 +38,13 @@ $(function () {
   $(".modal-close").click(function () {
     $(".modal").hide();
   });
+
+  // 패밀리사이트
+  $("#family").change(function () {
+    var url;
+    url = $(this).val();
+    console.log(url);
+    window.open(url, "_blank");
+    // window.open(url, "_self");
+  });
 });
