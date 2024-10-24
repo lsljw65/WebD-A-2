@@ -315,3 +315,12 @@ footer h2 img {
   right: 20px;
   bottom: 20px;
 }
+
+/* 배너 hover 애니메니션 */
+/* 변경 */
+.banner span {
+  transition: 0.8s;
+}
+.banner:hover span {
+  background-color: rgba(0, 0, 0, 1);
+}
