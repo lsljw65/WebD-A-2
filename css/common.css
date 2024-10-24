@@ -29,17 +29,74 @@ img {
 header {
   width: 100%;
   height: 100px;
-  background-color: #dddddd;
+  /* background-color: #dddddd; */
+  display: flex;
+  align-items: center;
+  position: relative;
 }
+h1 {
+  width: 200px; /* 200/1200 *100 = 16.66%*/
+  height: 40px;
+  /* background-color: #d2d2d2; */
+}
+h1 img {
+  width: 100%;
+}
+/* 네비 */
+#nav-wrap {
+  width: 1000px; /* 1000/1200 * 100 = 83.3%*/
+  height: 100px;
+  background-color: #ccc;
+  display: flex;
+  justify-content: flex-end;
+  align-items: flex-end;
+  padding-right: 20px;
+}
+nav {
+  width: 60%;
+  height: 50%;
+  background-color: rgb(102, 110, 102);
+}
+nav > ul {
+  list-style: none;
+  width: 100%;
+  height: 100%;
+  display: flex;
+}
+nav > ul > li {
+  width: 25%;
+  height: 100%;
+  background-color: darkgreen;
+  position: relative;
+}
+nav > ul > li > a {
+  /* display: block; */
+  width: 100%;
+  height: 100%;
+  color: white;
+  border-right: 1px solid white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-weight: bold;
+}
+nav > ul > li:last-child > a {
+  border-right: none;
+}
+nav > ul > li > a:hover {
+  background-color: rgb(67, 184, 230);
+}
+
 /* 콘텐츠 */
 section {
   width: 100%;
   height: 500px;
-  background-color: #f2f2f2;
+  /* background-color: #f2f2f2; */
   margin: auto;
   position: relative;
 }
-/* footer */
+
+/* 푸터 */
 footer {
   width: 100%;
   height: 100px;
